@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
 var corsOptions = {
-    origin: process.env.ORIGIN_CROSS_DOMAIN,
+    origin: process.env.REACT_REDUX_FRONT_URI,
     optionsSuccessStatus: 200
   }
 
@@ -15,7 +15,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 (async () => {
     //string conexion
-    mongoose.connect(process.env.   STRING_CONEXION, {
+    mongoose.connect(process.env.MONGODB_URI, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     });

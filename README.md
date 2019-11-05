@@ -1,8 +1,9 @@
 # BackEnd
+- nodejs v8.11.3
 
 | Variable | Description |
 | ------ | ------ |
-| REACT_REDUX_FRONT_URI | Current url of the app front |
+| REACT_REDUX_FRONT_URI | The url of the app front |
 | MONGODB_URI | URI of connection to mongodb |
 
 ### Install BackEnd dependecies

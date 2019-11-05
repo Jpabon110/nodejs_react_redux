@@ -1,4 +1,4 @@
-# BackEnd
+# App with Nodejs and React with Redux
 - nodejs v8.11.3
 
 | Variable | Description |
